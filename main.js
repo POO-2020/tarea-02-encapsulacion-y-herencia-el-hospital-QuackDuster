@@ -41,7 +41,7 @@ const doctorC = new Doctor ({
     cedula:"2343GFJD",
     especialidad:"Cirujano",
     nombre: new Nombre("Ramon", "Castro", "Campos"),
-    telefono:"444442244"
+    telefono:"31256371"
 })
 
 class Main {
@@ -140,7 +140,7 @@ class Main {
         let cita2 = new Cita ({
             fecha:new Fecha(3,4,2020),
             hora:new Tiempos(4,0,"pm"),
-            doctor: doctorB,
+            doctor: doctorC,
             paciente: pacienteC
         })
         hospitalA.registrarDoctor(doctorA)
